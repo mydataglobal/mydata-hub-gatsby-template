@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import logo from '../assets/images/mydata/mydata-wheel-logo.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="MyData Scotland" />
 
         <Header />
 
@@ -59,7 +59,7 @@ class Index extends React.Component {
                 </ul>
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={logo} alt="" />
               </span>
             </div>
           </section>

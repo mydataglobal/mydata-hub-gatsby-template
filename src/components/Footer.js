@@ -6,18 +6,15 @@ import logo from '../assets/images/logo.svg'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>A MyData Global local hub</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+        A registered non-profit association and a global network whose mission is to empower individuals by improving their right to self-determination regarding their personal data.
       </p>
       <ul className="actions">
         <li>
-          <Link to="/generic" className="button">
+          <a href="https://mydata.org" className="button">
             Learn More
-          </Link>
+          </a>
         </li>
       </ul>
     </section>

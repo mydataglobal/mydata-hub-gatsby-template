@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Stellar by HTML5 UP',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Stellar by HTML5 UP',
+    title: 'MyData Scotland',
+    author: 'Will Abramson',
+    description: 'A Scottish community of the data conscious individuals, part of the MyData Global organisation and movement.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'MyData Scotland Hub',
+        short_name: 'MyData Scotland',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

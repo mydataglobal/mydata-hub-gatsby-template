@@ -9,7 +9,7 @@ const Header = props => (
     </span>
     <h1>MyData Scotland</h1>
     <p>
-      A Scottish community of the data conscious individuals
+      A Scottish community of the data conscious individuals,
       <br />
       part of the <a href="https://mydata.org">MyData Global</a> organisation.
     </p>
