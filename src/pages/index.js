@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import logo from '../assets/images/mydata/mydata-wheel-logo.png'
+import SubscribeToMailingList from '../components/SubscribeToMailingList'
 
 class Index extends React.Component {
   constructor(props) {
@@ -167,6 +168,7 @@ class Index extends React.Component {
                 <br />
                 posuere. Nulla massa urna, fermentum eget quam aliquet.
               </p>
+              <SubscribeToMailingList/>
             </header>
             <footer className="major">
               <ul className="actions">

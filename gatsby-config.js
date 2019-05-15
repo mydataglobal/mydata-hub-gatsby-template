@@ -20,5 +20,12 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'YOUR MAILCHIMP FORM ENDPOINT', // add your MC list endpoint here; see instructions below
+      },
+    }
+
   ],
 }
